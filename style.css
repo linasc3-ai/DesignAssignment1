@@ -1,0 +1,106 @@
+html, body {
+  height: 770px;
+  width: 400px;
+  background-color: #EEFEFF;
+  font-family: "Gill Sans", sans-serif; 
+}
+
+body {
+  border: 2px solid black;
+} 
+
+.selectors {
+  margin: 15px; 
+  margin-bottom: 0px; 
+  background-color: #3F7B88;
+  border-radius: 15px; 
+  color: #CDF4FD;
+}
+
+.selectors p{
+  float: left; 
+  width: 80%;
+  text-align: center; 
+}
+
+.selectors:after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
+.column {
+  float: left; 
+  width: 50%;
+  text-align: center; 
+}
+
+.row:after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
+.day1col, .day2col {
+  float: left; 
+  width: 49%
+}
+
+.day1col {
+  border-right: 1px solid black; 
+}
+
+.card:after {
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+
+.card{
+  background-color: #D4D4D4; 
+  opacity: 0.5; 
+  margin: 15px;
+  margin-top: 0px; 
+  padding: 10px;
+  border-radius: 15px; 
+  text-align: center; 
+}
+
+.card ul{
+  text-align: left; 
+}
+
+.fa-solid {
+  color: #3F7B88; 
+}
+
+.fa-solid.fa-bars {
+  float: left;
+  padding: 20px; 
+} 
+
+.fa-solid.fa-map {
+  float: right;
+  padding: 20px; 
+} 
+
+.fa-regular.fa-sun {
+  background-color: #3F7B88; 
+  padding: 18px;
+  border-radius: 200px;
+  color: #FFFB94;
+  margin-top: 80px;  
+}
+
+.fa-solid.fa-cloud-rain{
+  color: #7DE4FB; 
+}
+
+.fa-solid.fa-cloud{
+  color: #D4FCFF; 
+}
+
+.footer{
+  margin-top: 40px;
+  padding-top: 50px; 
+}
